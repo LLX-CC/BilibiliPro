@@ -1,0 +1,23 @@
+[gd_resource type="TileSet" load_steps=3 format=3 uid="uid://bkrukdue5fmla"]
+
+[ext_resource type="Texture2D" uid="uid://d1stxmjdn1m8i" path="res://asserts/environment/tilemap_packed.png" id="1_pybuv"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_1tf8b"]
+texture = ExtResource("1_pybuv")
+0:4/0 = 0
+0:4/0/terrain_set = 0
+0:4/0/terrain = 0
+0:4/0/probability = 20.0
+1:4/0 = 0
+1:4/0/terrain_set = 0
+1:4/0/terrain = 0
+1:4/0/probability = 5.0
+6:3/0 = 0
+6:3/0/terrain_set = 0
+6:3/0/terrain = 0
+
+[resource]
+terrain_set_0/mode = 0
+terrain_set_0/terrain_0/name = "Floor 0"
+terrain_set_0/terrain_0/color = Color(0.120814, 0.440642, 0.4037, 1)
+sources/0 = SubResource("TileSetAtlasSource_1tf8b")

@@ -1,0 +1,38 @@
+[gd_resource type="TileSet" load_steps=3 format=3 uid="uid://b1d355teijuua"]
+
+[ext_resource type="Texture2D" uid="uid://d1stxmjdn1m8i" path="res://asserts/environment/tilemap_packed.png" id="1_wefuo"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_d53lc"]
+texture = ExtResource("1_wefuo")
+9:5/0 = 0
+10:5/0 = 0
+10:6/0 = 0
+11:6/0 = 0
+11:7/0 = 0
+10:7/0 = 0
+9:7/0 = 0
+9:6/0 = 0
+11:5/0 = 0
+1:4/0 = 0
+1:4/0/terrain_set = 0
+1:4/0/terrain = 0
+1:4/0/probability = 5.0
+0:4/animation_columns = 2
+0:4/0 = 0
+0:4/0/terrain_set = 0
+0:4/0/terrain = 0
+0:4/0/probability = 10.0
+6:3/0 = 0
+6:3/0/terrain_set = 0
+6:3/0/terrain = 0
+0:1/animation_columns = 2
+0:1/animation_frame_0/duration = 1.0
+0:1/animation_frame_1/duration = 1.0
+0:1/0 = 0
+3:2/0 = 0
+
+[resource]
+terrain_set_0/mode = 0
+terrain_set_0/terrain_0/name = "Floor"
+terrain_set_0/terrain_0/color = Color(0.0755189, 0.439423, 0.439014, 1)
+sources/0 = SubResource("TileSetAtlasSource_d53lc")
